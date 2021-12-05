@@ -20,10 +20,13 @@ In this lab, I will show you how you can automate and orchestrate creating your 
 2. Fork the ``` techops-ci-demo-application ``` repository to your GitHub Account
 3. Update the ``` terraform.tf ``` file with your AWS Credentials or profile. 
 4. Create your AWS environment with Terraform.
+   1. ```terraform init``` to download all module dependencies and plugins
+   2. ```terraform plan``` to confirm that credentials are working and what resources will be deployed
+   3. ```terrafom apply``` to deploy the environment to your aws account
 5. Authorise AWS CodeStar to access your GitHub Account
 6. Deploy the application to the environment
 7. Confirm that application is working as expected
-8. Complete the Homework/Challenge Activity (optional and to be conducted in your own tim)
+8. Complete the Homework/Challenge Activity (optional and to be conducted in your own time)
 9. Clean up
 
 > Note: This lab focuses on automation capability of Terraform, ansible and CI/CD Pipelines, and is designed to give you basic to intermediate understanding on how these technologies work.
