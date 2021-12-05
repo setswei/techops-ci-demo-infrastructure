@@ -1,5 +1,7 @@
 # exclude terraform files
 .terraform
+.infracost
 *.tfstate
 *.backup
 *.lock.hcl
+infracost-usage.yml
