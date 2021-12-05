@@ -1,7 +1,12 @@
 # exclude terraform files
 .terraform
-.infracost
 *.tfstate
 *.backup
 *.lock.hcl
+
+# exclude infracost files
+.infracost
 infracost-usage.yml
+
+# exclude jetbrains ide files
+.idea
